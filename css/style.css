@@ -55,6 +55,7 @@
 
 .hero-price {
   color: #86868b;
+  margin-top: 20px;
 }
 
 .header-links {
@@ -77,6 +78,80 @@
   margin-left: 16px;
 }
 
-    © 2021 GitHub, Inc.
-    Terms
-    Privacy
+.section-one {
+  background-image: url(/images/iphone-12-pro.jpeg);
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  margin-top: 16px;
+}
+.section-one h1 {
+  font-size: 50px;
+}
+.section-one h2 {
+  margin-top: -20px;
+}
+
+.section-two {
+  background-image: url(/images/ipad-pro.jpeg);
+  background-size: cover;
+  height: 500px;
+  text-align: center;
+  padding-top: 30px;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  margin-top: 16px;
+}
+
+.section-three {
+  margin: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+}
+
+.card {
+  width: 49.5%;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding-top: 20px ;
+  margin-top: 8px;
+}
+
+.card h1 {
+  margin: 0px;
+}
+
+.card:first-child {
+  background-image: url(/images/promo_imac__crg641tip4q6_large.jpg);
+}
+
+.card:nth-child(2) {
+  background-image: url(/images/watch-series-6.jpeg);
+  color: #fff;
+}
+
+.card:nth-child(3) {
+  background-image: url(/images/promo_1.jpeg);
+}
+
+.card:nth-child(4) {
+  background-image: url(/images/promo_apple_tv.jpeg);
+}
+
+.card:nth-child(5) {
+  background-image: url(/images/promo_music.jpeg);
+}
+
+.card:nth-child(6) {
+  background-image: url(/images/promo_morning_show.jpeg);
+}
