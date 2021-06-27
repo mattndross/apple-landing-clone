@@ -156,16 +156,46 @@
   background-image: url(/images/promo_morning_show.jpeg);
 }
 
+.margin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+
+}
 .footer-container {
-  margin: 20px 50px 0px 50px;
+  width: 650px;
+  align-self: center;
+  font-size: small;
+  font-weight: lighter;
+
 }
 
 .row {
   display: flex;
 }
 
+.footer-nav {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: #757577 0.5px solid;
+}
+
 .col {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+}
+
+li {
+  list-style-type: none;
+}
+
+h5 {
+  margin-top: 5px;
+}
+a {
+  text-decoration: none;
+  color:#1d1d1f
 }
